@@ -5,5 +5,5 @@ module.exports = {
   MONGODB_URI:
     process.env.MONGODB_URI ||
     " mongodb://george1:george1@ds125041.mlab.com:25041/restify_api",
-  JWT_SECRET: process.env.JWT_SECRET || "secret"
+  JWT_SECRET: process.env.JWT_SECRET || "password"
 };
